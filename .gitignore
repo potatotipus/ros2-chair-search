@@ -1,0 +1,29 @@
+# Python and local AI environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated world, map, local paths, logs and results
+/runtime/
+*.log
+
+# Downloaded model weights and exported models
+*.pt
+*.onnx
+*.engine
+
+# Recordings (submit separately or link from README)
+*.mp4
+*.mkv
+*.avi
+*.webm
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*

@@ -1,0 +1,4 @@
+# Install CPU torch and torchvision first; see docs/SETUP.md.
+ultralytics
+numpy<2
+opencv-python<4.12
